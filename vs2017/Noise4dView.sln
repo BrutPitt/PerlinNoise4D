@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Noise4dView", "Noise4dView.vcxproj", "{963C9B84-4155-40AD-9C4C-2C629EC7A872}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{963C9B84-4155-40AD-9C4C-2C629EC7A872}.Debug|Win32.ActiveCfg = Debug|Win32
+		{963C9B84-4155-40AD-9C4C-2C629EC7A872}.Debug|Win32.Build.0 = Debug|Win32
+		{963C9B84-4155-40AD-9C4C-2C629EC7A872}.Release|Win32.ActiveCfg = Release|Win32
+		{963C9B84-4155-40AD-9C4C-2C629EC7A872}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C1FB626-05D6-4E51-A50A-AD300C4DE20E}
+	EndGlobalSection
+EndGlobal
