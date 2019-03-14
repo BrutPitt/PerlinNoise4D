@@ -41,7 +41,9 @@
 #include <gl/glut.h>
 #include <gl/glext.h>
 
+#ifdef MULTITHREAD_ON
 #include <omp.h>
+#endif
 
 #include "defs.h"
 
@@ -288,11 +290,9 @@ int ix, iy, iz;
 //int proc = omp_get_num_procs();
 #ifdef MULTITHREAD_ON
     const int numThreads = omp_get_max_threads();
-#else
-    const int numThreads = omp_get_max_threads();
+    omp_set_num_threads(numThreads);
 #endif
 
-omp_set_num_threads(numThreads);
 
 
 
